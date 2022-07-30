@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: "Roboto Slab", sans-serif;
+  background-color: whitesmoke;
+}
+img {
+  cursor: grab;
+}
+header {
+  height: 100px;
+  width: 100vw;
+  background-color: #FFFFFF;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  margin: 0;
+}
+.header-logo {
+  height: 90px;
+  width: auto;
+}
+.header-left-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-right-side {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.cnt-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 800px;
+}
+.page-title {
+  margin: 20px 10px 20px 10px;
+}
+.page-title-p {
+  margin: 10px;
+  /*margin-bottom: 10px;*/
+}
+hr {
+  width: 900px;
+  height: 2px;
+  background-color: #000000;
+}
+hr.short {
+  width: 350px;
+}
+hr.medium {
+  width: 500px;
+}
+iframe {
+  margin: 0;
+  margin-bottom: 10px;
+}
+a:link {
+  color: #808080;
+  text-decoration: none;
+}
+a:visited {
+  color: #474747;
+  text-decoration: none;
+}
+a:hover {
+  color: #d3d3d3;
+  text-decoration: none;
+}
+a:active {
+  color: #808080;
+  text-decoration: none;
+}
+h6 {
+  margin: 5px;
+  margin-bottom: 20px;
+}
+/* BUTTON START */
+.button-links {
+  font-family: "Roboto Slab", sans-serif;
+  background-color: rgba(51, 51, 51, 0.05);
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  margin-right: 20px;
+  padding: 15px 17px;
+  text-align: center;
+  transition: all 150ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button-links:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+/* BUTTON END */
+/* SCROLLBAR START */
+::-webkit-scrollbar {
+  width: 0px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+/* SCROLLBAR END */
