@@ -17,6 +17,7 @@ header {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
 }
 ul {
   margin: 0;
@@ -61,7 +62,7 @@ main {
   /*margin-bottom: 10px;*/
 }
 hr {
-  width: 900px;
+  width: 800px;
   height: 2px;
   background-color: #000000;
 }
@@ -95,6 +96,40 @@ h6 {
   margin: 5px;
   margin-bottom: 20px;
 }
+@media (max-width: 800px) {
+  header {
+    height: auto;
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+  .header-right-side {
+    justify-content: center;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .cnt-container {
+    width: calc(100vw - 20px);
+  }
+  hr {
+    width: calc(100vw - 10%);
+    height: 2px;
+    background-color: #000000;
+  }
+  hr.short {
+    width: calc(100vw - 30%);
+  }
+  hr.medium {
+    width: calc(100vw - 20%);
+  }
+  iframe {
+    width: 95%;
+    height: auto;
+  }
+  .center-text-mobile {
+    text-align: center
+  }
+}
 /* BUTTON START */
 .button-links {
   font-family: "Rubik Regular", sans-serif;
@@ -109,7 +144,8 @@ h6 {
   line-height: 20px;
   list-style: none;
   margin: 0;
-  margin-right: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
   padding: 15px 17px;
   text-align: center;
   transition: all 150ms;
