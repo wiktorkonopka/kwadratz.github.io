@@ -78,7 +78,6 @@ hr.medium {
 }
 iframe {
   width: 95%;
-  height: auto;
   margin: 0;
   margin-bottom: 10px;
 }
@@ -128,11 +127,6 @@ h6 {
   hr.medium {
     width: 500px;
   }
-  iframe {
-    width: 95%;
-    height: auto;
-  }
-  
 }
 /* BUTTON START */
 .button-links {
