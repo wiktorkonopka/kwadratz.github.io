@@ -3,6 +3,12 @@ body {
   font-family: "Rubik Regular", sans-serif;
   background-color: whitesmoke;
 }
+/*@media (prefers-color-scheme: dark) {
+  body {
+      background-color: black;
+      color: white;
+  }
+}*/
 @font-face {
   font-family: Rubik Regular;
   src: url(media/Rubik.ttf);
@@ -63,6 +69,7 @@ main {
 }
 .page-title-p {
   margin: 10px;
+  max-width: 100%;
   /*margin-bottom: 10px;*/
 }
 hr {
