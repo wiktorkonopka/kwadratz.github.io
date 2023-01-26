@@ -3,12 +3,6 @@ body {
   font-family: "Rubik Regular", sans-serif;
   background-color: whitesmoke;
 }
-/*@media (prefers-color-scheme: dark) {
-  body {
-      background-color: black;
-      color: white;
-  }
-}*/
 @font-face {
   font-family: Rubik Regular;
   src: url(media/Rubik.ttf);
@@ -178,3 +172,21 @@ h6 {
   background: #555; 
 }
 /* SCROLLBAR END */
+
+@media (prefers-color-scheme: dark) {
+  body {
+      background-color: #444444;
+      color: white;
+  }
+  header {
+      background-color: #191919;
+      color: white;
+  a {
+      color: #cccccc;
+  }
+  hr {
+      background-color: #ffffff;
+  }
+  .button-links {
+      background-color: #5c5c5c;
+}
