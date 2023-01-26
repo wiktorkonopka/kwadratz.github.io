@@ -175,18 +175,18 @@ h6 {
 
 @media (prefers-color-scheme: dark) {
   body {
-      background-color: #444444;
+      background-color: #222222;
       color: white;
   }
   header {
-      background-color: #191919;
+      background-color: ;
       color: white;
-  a {
-      color: #cccccc;
+  a:link {
+      color: #D8D8D8;
   }
   hr {
       background-color: #ffffff;
   }
   .button-links {
-      background-color: #5c5c5c;
+      background-color: rgba(25, 25, 25, 1);
 }
