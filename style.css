@@ -188,5 +188,6 @@ h6 {
       background-color: #ffffff;
   }
   .button-links {
-      background-color: rgba(25, 25, 25, 1);
+      background-color: rgb(25, 25, 25);
+      color: white;
 }
