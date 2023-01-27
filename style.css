@@ -172,7 +172,10 @@ h6 {
   background: #555; 
 }
 /* SCROLLBAR END */
-
+@media (prefers-color-scheme: light) {
+  .button-links {
+      color: #333333;
+}
 @media (prefers-color-scheme: dark) {
   body {
       background-color: #222222;
@@ -189,5 +192,5 @@ h6 {
   }
   .button-links {
       background-color: rgb(25, 25, 25);
-      color: white;
+      color: #ffffff;
 }
