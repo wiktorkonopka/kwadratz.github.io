@@ -1,19 +1,21 @@
+@keyframes fadeIn {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
 body {
+  animation-name: fadeIn;
+  animation-duration: 0.25s;
   margin: 0;
   font-family: "Rubik Regular", sans-serif;
   background-color: whitesmoke;
 }
-/*@media (prefers-color-scheme: dark) {
-  body {
-      background-color: black;
-      color: white;
-  }
-}*/
 @font-face {
   font-family: Rubik Regular;
   src: url(media/Rubik.ttf);
 }
 img {
+  animation-name: fadeIn;
+  animation-duration: 0.8s;
   cursor: grab;
 }
 header {
@@ -27,6 +29,8 @@ header {
   padding-bottom: 10px;
 }
 ul {
+  animation-name: fadeIn;
+  animation-duration: 0.8s;
   margin: 0;
 }
 .header-logo {
@@ -62,17 +66,23 @@ main {
   width: calc(100% - 20px);
 }
 .page-title {
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
   margin: 20px 10px 20px 10px;
 }
 .page-title.project-title {
   margin: 10px;
 }
 .page-title-p {
+  animation-name: fadeIn;
+  animation-duration: 1s;
   margin: 10px;
   max-width: 100%;
   /*margin-bottom: 10px;*/
 }
 hr {
+  animation-name: fadeIn;
+  animation-duration: 1s;
   width: calc(100% - 10%);
   height: 2px;
   background-color: #000000;
@@ -84,16 +94,18 @@ hr.medium {
   width: calc(100% - 20%);
 }
 iframe {
+  animation-name: fadeIn;
+  animation-duration: 1s;
   width: 95%;
   margin: 0;
   margin-bottom: 10px;
 }
 a:link {
-  color: #808080;
+  color: #d1d1d1;
   text-decoration: none;
 }
 a:visited {
-  color: #474747;
+  color: #747474;
   text-decoration: none;
 }
 a:hover {
@@ -178,3 +190,37 @@ h6 {
   background: #555; 
 }
 /* SCROLLBAR END */
+@media (prefers-color-scheme: light) {
+  html {
+    background-color: white;
+  }
+  .button-links {
+      color: #333333;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: #181c20;
+  }
+  body {
+      background-color: #23272e;
+      color: #d4d7dd;
+  }
+  header {
+      background-color: #181c20;
+      color: #d4d7dd;
+  }
+  a {
+      color: #D8D8D8;
+  }
+  hr {
+      background-color: #d4d7dd;
+  }
+  .button-links {
+      background-color: #23272e;
+      color: #d4d7dd;
+  }
+  .button-links:hover {
+    box-shadow: rgba(255, 255, 255, 0.15) 0px 15px 25px, rgba(255, 255, 255, 0.05) 0px 5px 10px;
+  }
+}
