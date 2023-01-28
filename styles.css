@@ -101,19 +101,19 @@
     margin-bottom: 10px;
   }
   a:link {
-    color: #d1d1d1;
+    color: #adadad;
     text-decoration: none;
   }
   a:visited {
-    color: #747474;
+    color: #8e8e8e;
     text-decoration: none;
   }
   a:hover {
-    color: #d3d3d3;
+    color: #ffffff;
     text-decoration: none;
   }
   a:active {
-    color: #808080;
+    color: #9a9a9a;
     text-decoration: none;
   }
   h6 {
@@ -209,9 +209,6 @@
     header {
         background-color: #181c20;
         color: #d4d7dd;
-    }
-    a {
-        color: #D8D8D8;
     }
     hr {
         background-color: #d4d7dd;
