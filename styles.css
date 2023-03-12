@@ -1,17 +1,21 @@
 @keyframes fadeIn {
-    0% {opacity: 0}
-    100% {opacity: 1}
+    0% {
+      opacity: 0
+    }
+    100% {
+      opacity: 1
+    }
   }
   body {
     animation-name: fadeIn;
     animation-duration: 0.25s;
     margin: 0;
-    font-family: "Rubik Regular", sans-serif;
+    font-family: "Lato Regular", sans-serif;
     background-color: whitesmoke;
   }
   @font-face {
-    font-family: Rubik Regular;
-    src: url(media/Rubik.ttf);
+    font-family: Lato Regular;
+    src: url(media/Lato-Regular.ttf);
   }
   img {
     animation-name: fadeIn;
@@ -21,7 +25,8 @@
   header {
     height: auto;
     width: 100%;
-    background-color: #FFFFFF;
+    background-image: url(media/banner.png);
+    background-position: 60% 60%;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
     display: flex;
     justify-content: space-between;
@@ -31,7 +36,8 @@
   footer {
     max-height: 35px;
     width: 100%;
-    background-color: #FFFFFF;
+    background-image: url(media/banner.png);
+    background-position: 50% 95%;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 0px 0px;
     display: flex;
     justify-content: center;
@@ -52,6 +58,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0) 100%);
+    margin-bottom: 10px;
+    padding-right: 0px;
   }
   .header-right-side {
     height: auto;
@@ -151,6 +160,10 @@
       align-items: center;
       justify-content: space-around;
     }
+    .header-left-side {
+      padding-right: 5px;
+      margin-bottom: 0px;
+    }
     .cnt-container {
       max-width: 800px;
     }
@@ -166,8 +179,8 @@
   }
   /* BUTTON START */
   .button-links {
-    font-family: "Rubik Regular", sans-serif;
-    background-color: rgba(51, 51, 51, 0.05);
+    font-family: "Lato Regular", sans-serif;
+    background-color: rgba(51, 51, 51, 0);
     border-radius: 8px;
     border-width: 0;
     color: #333333;
@@ -231,11 +244,12 @@
         background-color: #d4d7dd;
     }
     .button-links {
-        background-color: #23272e;
-        color: #d4d7dd;
+        background-color: #23272e80;
+        color: #ffffff;
     }
     .button-links:hover {
-      box-shadow: rgba(255, 255, 255, 0.15) 0px 15px 25px, rgba(255, 255, 255, 0.05) 0px 5px 10px;
+      background-color: #23272ec5;
+      box-shadow: rgba(255, 255, 255, 0.3) 0px 15px 25px, rgba(255, 255, 255, 0.3) 0px 5px 10px;
     }
   }
   
