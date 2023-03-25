@@ -2,22 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Kwadratz - Contacts</title>
-    <meta name="keywords" content="kwadrat projects kwadratz cavestuck" />
+    <title>Kwadratz - Contact</title>
     <meta
       name="description"
       content="My website, with some stuff in it."
     />
     <meta name="author" content="Kwadratz" />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="icon/ico" href="media/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
     <link rel="stylesheet" href="styles.css" />
-    <meta property="og:title" content="Kwadratz - Contact" />
-    <meta property="og:description" content="Just call me babe."/>
+    <link rel="shortcut icon" type="icon/ico" href="media/favicon.ico"/>
+    <meta property="og:title" content="Kwadratz" />
+    <meta property="og:description" content="If wishing to contact me, here is how."/>
     <meta property="og:url" content="https://kwadratz.github.io/" />
-    <meta property="og:image" content="media/kwadratz_nm.png" />
-    <script defer src="script.js"></script>
+    <meta property="og:image" content="media/plainSquareBanner.png" />
+    
   </head>
   <body>
     <header>
@@ -25,29 +24,59 @@
         <img src="media\plainSquareBanner.png" class="header-logo" onclick="window.location.href = 'index.html'">
       </div>
       <div class="header-right-side">
-        <button class="button-links" onclick="window.location.href = 'blog.html'">Blog</button>
         <button class="button-links" onclick="window.location.href = 'projects.html'">Projects</button>
         <button class="button-links" onclick="window.location.href = 'dls.html'">Downloads</button>
         <button class="button-links" onclick="window.location.href = 'contact.html'">Contact</button>
       </div>
     </header>
     <main>
-      <div class="cnt-container">
-        <h1 class="page-title">Contact</h1>
-          <p class="page-title-p center-text-mobile">
-            If you wish to contact me, here are some ways to send me a message, or ask for something!<br>
-            <ul>
-              <li><b>Discord > </b>You can contact me privately (Kwadratz#8924)<br>Or, you can join <a href="https://bit.ly/modernfatory">my server</a>, or 
-              <a href="https://bit.ly/ShroomsScootersKazoos"> my friend's one.</a></li>
-              <li><b>YouTube > </b>You can find my channel <a href="https://www.youtube.com/channel/UCSy-GbQIzfUKppQH9k_CDqg">there</a>.</li>
-              <li><b>Twitter > </b>Mention me using @KwadratPl</li>
-              <li><b>Email > </b>I'm available to help at kwadratz.contact@gmail.com<br>Please note that your message may arrive in spam!</li>
-            </ul>
-          </p>
+      <div class="box-flex-container">
+        <div class="box-flex-element b1 full-width no-color">
+          <div class="title-bg-div projects-bg-color">
+            <h2 class="bfe-title">Contact</h2>
+            <h4 class="bfe-title">If wishing to reach me, here is how!</h4>
+          </div>
+        </div>
+        <div class="box-flex-element b1 full-width flex-row bfe-darker">
+          <h1 class="bfe-title">All my links</h1>
+          <div class="link-icons-container">
+            <button class="link-icon-btn" style="background-image: url(media/github.png);" onclick="window.location.href = 'https://github.com/Kwadratz'"></button>
+            <button class="link-icon-btn" style="background-image: url(media/discord.png);" onclick="window.location.href = 'https://discord.gg/EGs5BygnQH'"></button>
+            <button class="link-icon-btn" style="background-image: url(media/youtube.png);" onclick="window.location.href = 'https://youtube.com/@Kwadratz'"></button>
+            <button class="link-icon-btn" style="background-image: url(media/spotify.png);" onclick="window.location.href = 'https://open.spotify.com/user/3143dycj5nd2gi7jdrlsz4x572si'"></button>
+            <button class="link-icon-btn" style="background-image: url(media/minecraft.png);" onclick="window.location.href = 'https://pl.namemc.com/profile/KwadratPL.1'"></button>
+          </div>
+        </div>
+        <div class="blog-post-div">
+          <div class="blog-post-title" style="text-align: center;">
+            <h3>Contact me by...</h3>
+          </div>
+          <div class="blog-post-text">
+            <div class="contact-row">
+              <img src="media/discord.png" alt="Discord">
+              <p>Discord</p>
+              <button class="dls-download-btn btn-gray" style="padding-right: 50px;" onclick="copyText('Kwadratz#8924')">Kwadratz#8924</button>
+              <button class="dls-download-btn btn-blue" style="width: 210px;" onclick="window.location.href = 'https://discord.gg/EGs5BygnQH'">Join my Discord...</button>
+              <button class="dls-download-btn btn-gray" style="width: 230px;" onclick="window.location.href = 'https://bit.ly/ShroomsScootersKazoos'">...or my friend's one!</button>
+            </div>
+            <div class="contact-row">
+              <img src="media/youtube.png" alt="Youtube">
+              <p>YouTube</p>
+              <button class="dls-download-btn btn-red" style="width: auto" onclick="window.location.href = 'https://youtube.com/@Kwadratz'">Visit my YouTube channel</button>
+            </div>
+            <div class="contact-row">
+              <img src="media/email.svg" style="width: 35px; margin-right: 10px;" alt="E-mail">
+              <p>E-mail</p>
+              <button class="dls-download-btn btn-gray" style="width: auto" onclick="copyText('kwadratz.contact@gmail.com')">kwadratz.contact@gmail.com</button>
+            </div>
+          </div>
+        </div>
+        <!-- <hr> -->
+        <footer>
+          <h6 class="page-title footer_text">Copyright Kwadratz 2022 - 2023. All rights reserved.</h6>
+        </footer>
       </div>
-      <footer>
-        <h6 class="page-title footer_text">Copyright Kwadratz 2022 - 2023. All rights reserved.</h6>
-      </footer>
     </main>
   </body>
+  <script src="script.js"></script>
 </html>

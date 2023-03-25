@@ -3,21 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <title>Kwadratz - Projects</title>
-    <meta name="keywords" content="kwadrat projects kwadratz cavestuck" />
     <meta
       name="description"
       content="My website, with some stuff in it."
     />
     <meta name="author" content="Kwadratz" />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="icon/ico" href="media/favicon.ico"/>
-    <meta property="og:title" content="Kwadratz - Projects" />
-    <meta property="og:description" content="All things that I made, and they are cool :cold_face:"/>
-    <meta property="og:url" content="https://kwadratz.github.io/" />
-    <meta property="og:image" content="media/kwadratz_nm.png" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
     <link rel="stylesheet" href="styles.css" />
-    <script src="script.js"></script>
+    <link rel="shortcut icon" type="icon/ico" href="media/favicon.ico"/>
+    <meta property="og:title" content="Kwadratz" />
+    <meta property="og:description" content="All my projects, listed!"/>
+    <meta property="og:url" content="https://kwadratz.github.io/" />
+    <meta property="og:image" content="media/plainSquareBanner.png" />
+    
   </head>
   <body>
     <header>
@@ -25,60 +24,64 @@
         <img src="media\plainSquareBanner.png" class="header-logo" onclick="window.location.href = 'index.html'">
       </div>
       <div class="header-right-side">
-        <button class="button-links" onclick="window.location.href = 'blog.html'">Blog</button>
         <button class="button-links" onclick="window.location.href = 'projects.html'">Projects</button>
         <button class="button-links" onclick="window.location.href = 'dls.html'">Downloads</button>
         <button class="button-links" onclick="window.location.href = 'contact.html'">Contact</button>
       </div>
     </header>
     <main>
-      <div class="cnt-container">
-        <h1 class="page-title">Projects</h1>
-          <!-- POWERPROMPT -->
-          <h2 class="page-title">PowerPrompt</h2>
-          <p class="page-title-p">
-            <i>Created by Mihael2017</i><br>
-            An awesome new way to make things done! Introducing: PowerPrompt! Your new source of computer management. Version that is published here won't be the newest.
-            Newest version is shared with a limited group, but we still want to share something with you, so here we are.
-            PowerPrompt includes life-changing features like:
-            <ul>
-              <li>Window management</li>
-              <li>Easy access to all of Windows Administrative Tools, as well as Windows Accessories, Settings app and Control Panel</li>
-              <li>Password Keeper</li>
-              <li>Disc partitioning</li>
-              <li>File organization</li>
-              <li>Command history</li>
-              <li>Character counter</li>
-              <li>To-do list</li>
-              <li>Voice controlling (coming soon)</li>
-              <li>Exporting and importing settings</li>
-            </ul>
-            <i>Project is made in 99% by Mihael2017, I've contributed to this project a few times, and here is the only - at least for now - 
-            public download source. 
-            </i>
-            <b>1.7.1 Changelog</b><br>
-            <ul>
-              <li>PowerPrompt and diskpart are now a bit more colorful</li>
-              <li>PowerPrompt doesn't close anymore after pressing the X on versionDialog</li>
-              <li>Removed Settings UI</li>
-              <li>Added PowerPrompt To-Do (by Kwadratz)</li>
-              <li>Added commandlist back (for both diskpart and PowerPrompt)</li>
-              <li>All commands aren't case-sensitive anymore! (diskpart and PowerPrompt)</li>
-              <li>Fixed a small bug in PowerPrompt Settings</li>
-              <li>You can now change which history config gets loaded trough PowerPrompt Settings</li>
-              <li>You can now import/export data from other PowerPrompt Version (useful when updating)</li>
-              <li>Added the "help" command</li>
-              <li>Removed unused modules</li>
-            </ul>
-            LINUX AND MAC SUPPORT COMING (not that) SOON!
-          </p>
-          <p class="page-title-p">
-            <b>Downloads</b> [ <a href="https://github.com/Mihael3007/PowerPrompt/releases/tag/v1.7">Windows</a> ]
-          </p>
-      </div>
+      <div class="box-flex-container">
+        <div class="box-flex-element b1 full-width no-color">
+          <div class="title-bg-div projects-bg-color">
+            <h2 class="bfe-title">Projects</h2>
+            <h4 class="bfe-title">All the things that I've made or contributed much are here!</h4>
+          </div>
+          <div class="projects-post-div">
+            <div class="projects-post-header">
+              <div class="pph-left">
+              <h3 class="bfe-title">PowerPrompt</h3>
+            </div>
+            <div class="pph-right">
+              <button class="projects-option-btn btn-gray" onclick="window.location.href = 'https://linktr.ee/mihael2017/'">Reach Mihael2017</button>
+              <button class="projects-option-btn btn-green" onclick="window.location.href = 'https://github.com/Mihael3007/PowerPrompt/releases/tag/v1.7'">
+                Download
+                <img src="media/windows.png" class="os-icon" alt="Windows">
+              </button>
+            </div>
+            </div>
+            <div class="projects-post-media">
+              <img class="projects-post-img" src="media/projects/pp.png" alt="I've already deleted that image!">
+            </div>
+            <div class="projects-post-text">
+              <p>
+                <span style="color: rgb(222, 0, 0)"><b>IMPORTANT:</b></span> This is not made by me. I've only contributed to it many times, so
+                that's why I put it here. PowerPrompt is made and should be associated with <a href="https://linktr.ee/mihael2017/">Mihael2017</a>. 
+                Besides, he allowed to make my website an offical PowerPrompt source, so here we are.
+              </p>
+              <p>
+                An awesome new way to get things done! Introducing: PowerPrompt! A console-based assistant with bunch of important commands,
+                shortcuts to most important programs, such as system settings, Windows accessories and counting! It also comes with many
+                functional things, like a to-do list, safe password keeper, disk partitioning tool, file organization commands, including a
+                character counting tool for text files. If you don't really like messing with command line arguments, PowerPrompt also has a 
+                slightly more user-friendly GUI!
+              </p>
+              <p>
+                PowerPrompt supports <b>user-made plugins.</b> Here are some of them (made by me, the list will probably get longer in some time):<br><br>
+                Weather Forecast Plugin v1.0.0 - <a href="https://github.com/Kwadratz/weather-forecast-plugin">Download</a><br><i>Using OpenWeatherAPI, requires custom API key</i>
+              </p>
+              <p>
+                PowerPrompt is currently offically exclusively available for Windows 10+. HOVEWER, nobody said it won't work on Mac and Linux. You can try,
+                but as I said: it's not made for it. Things may break, not work etc. Sorry, linux furries :P
+              </p>
+            </div>
+          </div>
+        </div>
+        <hr>
       <footer>
         <h6 class="page-title footer_text">Copyright Kwadratz 2022 - 2023. All rights reserved.</h6>
       </footer>
+      </div>
     </main>
   </body>
+  <script src="script.js"></script>
 </html>

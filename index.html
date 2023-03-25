@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <title>Kwadratz - Home</title>
-    <meta name="keywords" content="kwadratz" />
     <meta
       name="description"
       content="My website, with some stuff in it."
@@ -16,7 +15,7 @@
     <meta property="og:title" content="Kwadratz" />
     <meta property="og:description" content="My website, with some stuff in it."/>
     <meta property="og:url" content="https://kwadratz.github.io/" />
-    <meta property="og:image" content="media/kwadratz_nm.png" />
+    <meta property="og:image" content="media/plainSquareBanner.png" />
     
   </head>
   <body>
@@ -25,33 +24,151 @@
         <img src="media\plainSquareBanner.png" class="header-logo" onclick="window.location.href = 'index.html'">
       </div>
       <div class="header-right-side">
-        <button class="button-links" onclick="window.location.href = 'blog.html'">Blog</button>
         <button class="button-links" onclick="window.location.href = 'projects.html'">Projects</button>
         <button class="button-links" onclick="window.location.href = 'dls.html'">Downloads</button>
         <button class="button-links" onclick="window.location.href = 'contact.html'">Contact</button>
-        <!--<button id="change-theme" class="button-links">☀️</button>-->
       </div>
     </header>
     <main>
       <div class="box-flex-container">
-        <div class="box-flex-element">
-          
+        <div class="box-flex-element b1">
+          <h1 class="bfe-title">All my links</h1>
+          <div class="link-icons-container">
+            <button class="link-icon-btn" style="background-image: url(media/github.png);" onclick="window.location.href = 'https://github.com/Kwadratz'"></button>
+            <button class="link-icon-btn" style="background-image: url(media/discord.png);" onclick="window.location.href = 'https://discord.gg/EGs5BygnQH'"></button>
+            <button class="link-icon-btn" style="background-image: url(media/youtube.png);" onclick="window.location.href = 'https://youtube.com/@Kwadratz'"></button>
+            <button class="link-icon-btn" style="background-image: url(media/spotify.png);" onclick="window.location.href = 'https://open.spotify.com/user/3143dycj5nd2gi7jdrlsz4x572si'"></button>
+            <button class="link-icon-btn" style="background-image: url(media/minecraft.png);" onclick="window.location.href = 'https://pl.namemc.com/profile/KwadratPL.1'"></button>
+          </div>
         </div>
-      </div>
-      <div class="cnt-container">
-        <h1 class="page-title">Welcome!</h1>
-        <p class="page-title-p">Howdy, welcome to my website! My name is Wiktor, but I use Kwadratz as my name in the internet (means "square" in Polish, which I speak!). 
-        I call myself a programming beginner, and I know Python, HTML and CSS well. I also sometimes write code in JS. I'm learning Java now, as well as PyGame. Privately, I enjoy taking photos, learning geography, rollerskating, playing Minecraft 
-        and of course coding! I have a furious cat named Hubert, he's my second cat. I live in Wroclaw, Poland, and I'm 1 hours ahead Brits, or even 2 hours during summer. If you wish to contact me, do it 
-        <a href="contact.html">here</a>. Also, you can check my PC specifications <a href="pcspecs.html">here</a>. I also run a 
-        <a href="https://www.youtube.com/@kwadratz">YouTube channel</a> about my projects and sometimes other stuff.<br></p>
+        <!-- <div class="box-flex-element b2">
+          <h1 class="bfe-title">Things I've made</h1>
+          <div class="box-flex-element-of-element">
+            <button class="box-element-btn">
+              <b><label class="no-margin-padding big-text-label">PowerPrompt</label></b>
+              <label class="no-margin-padding desc-label">A new "command prompt" that suits all of your needs! (not really)</label>
+            </button>
+          </div>
+          <div class="box-flex-element-of-element">
+            <button class="box-element-btn">
+              <b><label class="no-margin-padding big-text-label">PowerPrompt</label></b>
+              <label class="no-margin-padding desc-label">A new "command prompt" that suits all of your needs! (not really)</label>
+            </button>
+          </div>
+          <div class="box-flex-element-of-element">
+            <button class="box-element-btn">
+              <b><label class="no-margin-padding big-text-label">PowerPrompt</label></b>
+              <label class="no-margin-padding desc-label">A new "command prompt" that suits all of your needs! (not really)</label>
+            </button>
+          </div>
+          <div class="box-flex-element-of-element beb-shorter">
+            <button class="box-element-btn" onclick="window.location.href = 'projects.html'">
+              <b><label class="no-margin-padding big-text-label">See more...</label></b>
+            </button>
+          </div>
+        </div> -->
+        <div class="box-flex-element b2"> <!-- CHANGE IT TO b3 LATER! -->
+          <h1 class="bfe-title">About me</h1>
+          <p class="about-me-text">
+            Hey there, welcome! My real name is Wiktor, but I go by Kwadratz online. I live in Wrocław, Poland, and I speak, well, 
+            Polish and English (I also learn Korean). Living in the <b>CEST timezone.</b> I am passionate about programming, as you can see, and I specialize in Python, 
+            however, I have some plans on getting to know Unity with C# and Java. Privately, I love rollerskating, playing chess and
+            listening to K-pop (of course besides coding :D). I also have a furious cat named Hubert.
+          </p>
+          <div class="box-flex-element-of-element beb-shorter">
+            <button class="box-element-btn beb-shorter" onclick="window.location.href = 'pcspecs.html'">
+              <b><label class="no-margin-padding big-text-label">PC Specs</label></b>
+            </button>
+          </div>
       </div>
       <hr>
-      <div class="cnt-container">
-        <h2 class="page-title">Newest YouTube video</h2>
-        <iframe width="640" height="360" src="https://www.youtube.com/embed/ZcgBx9DA7Rc" title="CitiesBuild: A2 + A5: Podziemna Góra Lotnisko - Żelaniny Północ" 
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="box-flex-container full-width part-of-main color-lighter-on-dark-mode">
+        <div class="box-flex-element full-width no-color">
+          <div class="title-bg-div">
+            <h2 class="bfe-title">Blog</h2>
+            <h4 class="bfe-title">Sharing thoughts without a specific topic.</h4>
+          </div>
+          <div class="blog-post-div">
+            <div class="blog-post-title">
+              <h3 class="bfe-title">Woah, complete new look! And not only that!</h3>
+              <h5 class="bfe-title">25.03.2023</h5>
+            </div>
+            <div class="blog-post-text">
+              <p>
+                안녕하세요! I wasn't active here since, well, NOVEMBER! That's a lot of time, and so many things about me have changed, catch an example: 
+                my website! I made a pretty overhaul of it, adding some new elements and deleting some, making it almost PERFECT! Image support on the blog
+                page (which is located exclusively on the index!), new cool boxes with fun stuff, a nice image layout, buttons, and MUCH more! I have updated
+                the "about me" section and also the contact page, make some time to visit them if you want. <br>
+                TL;DR: I am now a BIG k-pop fan (< 3 BLACKPINK and NewJeans), I started playing chess, and I did lots of private and personal changes to
+                myself.<br>
+                About my programming "career" - I wanted to make a Minecraft-styled clone (see post below!), but it hadn't really got into the serious stage
+                of development, but I didn't give up though - I made another early prototype like that, which sneak peek you can get from the attached
+                image. I DO have plans for it, such as: adding mods support, mods, more blocks, and infinite terrain! If you have a great,
+                original name for it, reach me on Discord. Try to be as creative as possible, and get everything a man could get from the picture below. 
+                Thanks!
+                PS - I might publish an early build of it in <i>some</i> time.
+              </p>
+            </div>
+            <div class="blog-post-media">
+              <img class="blog-post-img" src="media/blog/sneak-peak1.png" alt="I've already deleted that image!">
+            </div>
+          </div>
+          <div class="blog-post-div">
+            <div class="blog-post-title">
+              <h3 class="bfe-title">Some new updates about me</h3>
+              <h5 class="bfe-title">02.11.2022</h5>
+            </div>
+            <div class="blog-post-text">
+              <p>
+                Writing this on the last hours of the long, 4-day weekend! 3 work days more to come this week. Remember what I've written in September? I kinda
+                stopped learning, and made less time for programming in October. That is mostly because of school, intense learning due to many tests, 
+                extracurriculars, things like that. I started to learn PySimpleGUI, which is actually great and easy to use! I got some great game ideas, 
+                that I could make in PyGame, but these are plans for next months. I was thinking about a 2d half-sandbox game, would work like a clone of Minecraft,
+                but with my ideas of course. If somebody noticed, the website has been updated to support mobile devices! 
+                Talking about Minecraft, in recent days, I've played more than usual, on my server CitiesBuild, and you can see some parts of it in my newest, at least 
+                for now, video. I was more or less tired of algorithmic thinking and solving problems, I wrote an IT test in my school, and was preparing for it
+                with my friend for way too long :D. There are also other contests from other subjects, I'm going to participate in these too. That's it for today,
+                dziękuję for reading!
+              </p>
+            </div>
+            <div class="blog-post-media"></div>
+          </div>
+          <div class="blog-post-div">
+            <div class="blog-post-title">
+              <h3 class="bfe-title">Java, and PyGame thoughts</h3>
+              <h5 class="bfe-title">05.09.2022</h5>
+            </div>
+            <div class="blog-post-text">
+              <p>
+                Yeah, so I've been learning Java since, like, late August? It's tough. I chose it over Kotlin, which seems easier. I was thinking about making 
+            Minecraft plugins for Spigot, I'll definitely try. School started, and it won't be an easy year, so I should (and will) focus more on science. 
+            Also, about PyGame. I like it, I feel like I have control over I do in it, but it is kinda overwhelming, I think about C# and Unity, which I guess 
+            would be a better choice, not only because Unity is supported on almost all of the platforms, it would be A LOT quicker, faster, and relaxing to 
+            not struggle with PyGame, but with something that I could do more in. And if you haven't heared about PowerPrompt, check it out, it's posted on 
+            the Downloads page, as well as on the Projects one. <s>And don't forget to check out included with PowerPrompt, ToDo list, made by me!!!!!!</s>
+            That's it for today!
+              </p>
+            </div>
+            <div class="blog-post-media"></div>
+          </div>
+          <div class="blog-post-div">
+            <div class="blog-post-title">
+              <h3 class="bfe-title">The new website is ready!</h3>
+              <h5 class="bfe-title">27.07.2022</h5>
+            </div>
+            <div class="blog-post-text">
+              <p>
+                I've been working for 2 hours on it, and I have finally done it! It looks really neat, at least for me. After I finish it, I'm planning to finish
+            a PyGame course, I found one that's pretty great, and add dark mode to this site. I'm also thinking of a addicting, haha, game idea. Mayby I'll find 
+            something interesting, and quietly copy it :D I would want to post here recent updates as frequently as possible, let's say mayby every 10 days? 
+            By the way, have you watched The Paper House: Korea? It's a nice korean version of the original serial. For now, stay tuned for next post!
+              </p>
+            </div>
+            <div class="blog-post-media"></div>
+          </div>
+        </div>
       </div>
+      <hr>
       <footer>
       <h6 class="page-title footer_text">Copyright Kwadratz 2022 - 2023. All rights reserved.</h6>
       </footer>

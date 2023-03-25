@@ -3,21 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <title>Kwadratz - PC Specs</title>
-    <meta name="keywords" content="kwadrat projects kwadratz cavestuck powerprompt" />
     <meta
       name="description"
       content="My website, with some stuff in it."
     />
     <meta name="author" content="Kwadratz" />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="shortcut icon" type="icon/ico" href="media/favicon.ico"/>
-    <meta property="og:title" content="Kwadratz - PC Specs" />
-    <meta property="og:description" content="Describes the insides of my crappy laptop!"/>
+    <meta property="og:title" content="Kwadratz" />
+    <meta property="og:description" content="PC Specifications of my laptop."/>
     <meta property="og:url" content="https://kwadratz.github.io/" />
-    <meta property="og:image" content="media/kwadratz_nm.png" />
-    <script src="script.js"></script>
+    <meta property="og:image" content="media/plainSquareBanner.png" />
+    
   </head>
   <body>
     <header>
@@ -25,26 +24,40 @@
         <img src="media\plainSquareBanner.png" class="header-logo" onclick="window.location.href = 'index.html'">
       </div>
       <div class="header-right-side">
-        <button class="button-links" onclick="window.location.href = 'blog.html'">Blog</button>
         <button class="button-links" onclick="window.location.href = 'projects.html'">Projects</button>
         <button class="button-links" onclick="window.location.href = 'dls.html'">Downloads</button>
         <button class="button-links" onclick="window.location.href = 'contact.html'">Contact</button>
       </div>
     </header>
     <main>
-      <div class="cnt-container">
-        <h1 class="page-title">PC specifications</h1>
-          <p class="page-title-p">
-            Processor: AMD Ryzen 3250U (2 cores, 2.6 GHz, x64, UEFI)<br>
-            Graphics card: Integrated with CPU (AMD Radeon Graphics)<br>
-            RAM: 16 GB<br>
-            Storage: 512 GB<br>
-            OS: Windows 11 Home (planning to switch onto linux)
-          </p>
-      </div>
+      <div class="box-flex-container">
+        <div class="box-flex-element b1 full-width no-color">
+          <div class="title-bg-div projects-bg-color">
+            <h2 class="bfe-title">PC Specifications</h2>
+            <h4 class="bfe-title">Revealing the insides of my devices!</h4>
+          </div>
+          <div class="blog-post-div">
+            <div class="blog-post-title">
+              <h3 class="bfe-title">My main laptop</h3>
+            </div>
+            <div class="blog-post-text">
+              <p>
+                <b>Laptop Model</b>: HP Laptop 15s-eq1xxx <br>
+                <b>CPU</b>: AMD Ryzen 3 3250U with Radeon Graphics (2 cores, 2.6 GHz) <br>
+                <b>GPU</b>: AMD Radeon Graphics <br>
+                <b>RAM</b>: 16 GB <br>
+                <b>Storage</b>: 512 GB <br>
+                <b>OS</b>: Windows 11 Home
+              </p>
+            </div>
+          </div>
+        </div>
+        <hr>
       <footer>
         <h6 class="page-title footer_text">Copyright Kwadratz 2022 - 2023. All rights reserved.</h6>
       </footer>
+      </div>
     </main>
   </body>
+  <script src="script.js"></script>
 </html>
