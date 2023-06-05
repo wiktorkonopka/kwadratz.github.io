@@ -26,8 +26,8 @@
   header {
     height: auto;
     width: 100%;
-    background-image: url(media/banner.png);
-    background-position: 60% 60%;
+    background-image: url(media/banner.jpg);
+    background-position: 50% 40%;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
     display: flex;
     justify-content: space-between;
@@ -37,7 +37,7 @@
   footer {
     max-height: 35px;
     width: 100%;
-    background-image: url(media/banner.png);
+    background-image: url(media/banner.jpg);
     background-position: 50% 95%;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 0px 0px;
     display: flex;
