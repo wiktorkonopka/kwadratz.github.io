@@ -26,7 +26,7 @@
   header {
     height: auto;
     width: 100%;
-    background-image: url(media/banner.jpg);
+    background-image: url(media/banner2.png);
     background-position: 50% 40%;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
     display: flex;
@@ -37,7 +37,7 @@
   footer {
     max-height: 35px;
     width: 100%;
-    background-image: url(media/banner.jpg);
+    background-image: url(media/banner2.png);
     background-position: 50% 95%;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 0px 0px;
     display: flex;
@@ -622,6 +622,31 @@
     background: #555; 
   }
   /* SCROLLBAR END */
+
+  /* TOOLTIP START */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #2e3034;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* TOOLTIP END */
+
   @media (prefers-color-scheme: light) {
     html {
       background-color: white;
@@ -685,4 +710,6 @@
       box-shadow: rgba(255, 255, 255, 0.3) 0px 15px 25px, rgba(255, 255, 255, 0.3) 0px 5px 10px; 
     }
   }
+
+
   
