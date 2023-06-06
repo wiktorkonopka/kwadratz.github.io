@@ -3,7 +3,7 @@ function copyText(text) {
    alert('Copied!');
 };
 
-let isUnderConstruction = true;
+let isUnderConstruction = false;
 
 if (isUnderConstruction == true) {
    alert("The page is under construction right now, come back later!")

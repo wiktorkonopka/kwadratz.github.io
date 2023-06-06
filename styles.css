@@ -628,10 +628,12 @@
   position: relative;
   display: inline-block;
 }
-
+.tooltip-dotted {
+  border-bottom: 2px dotted rgb(125, 125, 125);
+}
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 120px;
+  max-width: 300px;
   background-color: #2e3034;
   color: #ffffff;
   text-align: center;
@@ -639,10 +641,20 @@
   border-radius: 6px;
   position: absolute;
   z-index: 1;
+  padding: 10px;
 }
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
+}
+
+.tooltip .tooltiptext {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.tooltip:hover .tooltiptext {
+  opacity: 1;
 }
 
 /* TOOLTIP END */
@@ -681,6 +693,10 @@
     }
     .blog-post-div {
       background-color: rgb(245, 245, 245);
+    }
+    .tooltip .tooltiptext {
+      color: #2e3034;
+      background-color: #ffffff;
     }
   }
   @media (prefers-color-scheme: dark) {
