@@ -3,9 +3,9 @@ function copyText(text) {
    alert('Copied!');
 };
 
-let isUnderConstruction = false;
+let isUnderConstruction = true;
 
 if (isUnderConstruction == true) {
-   alert("The page is under construction right now, come back later!")
+   alert("The page is under construction right now, come back later! For more info, DM me on Discord (@kwadratz)")
    window.location.href = "about:blank"
 }
